@@ -6,7 +6,7 @@ const batmanUrl = "http://www.omdbapi.com/?apikey=8c6f8b51&t=batman&y=1989";
 
 enviar.addEventListener("click", async () => {
   console.log(nameInput, year, nameInput.value, year.value);
-  const url = `http://www.omdbapi.com/?apikey=8c6f8b51&t=${nameInput.value}&y=${year.value}`;
+  const url = `https://www.omdbapi.com/?apikey=8c6f8b51&t=${nameInput.value}&y=${year.value}`;
 
   resultado.innerHTML = ` 
   <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>

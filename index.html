@@ -1,56 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find your movie</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="contenedor">
-        <h2 class="titulo">
-            Find your movie
-        </h2>
-        <p class="explicacion">In this page you will find your movie (or serie) only with a few parameters that helps algorithm for see what movie do you looking for</p>
-    </div>
-
-    <div class="ejemplo">
-        <h2>EXAMPLE (ONLY PUSH SEARCH)</h2>
-        <form id="formulario">
-            <input type="text" value="Insert Name(batman)">
-            <input type="number" value="1989">
-            <input type="submit" id="submit" value="search">
-        </form>
-
-    </div>
-
-    <div class="ejemplo">
-        <div class="contenedor-peli" id="contenedor-peli">
-            <h2>Resultado...</h2>
-        </div>
-    </div>
-
-    <!--  AQUI TA EL PROYECTO ORA ZI BB -->
-    <div class="ejemplo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="dad">
+      <div class="box-1">
         <h2>Find your movie</h2>
-        <form id="form">
-            <input type="text" placeholder="Insert name">
-            <input type="number" placeholder="insert year">
-            <input type="submit" id="enviar" value="search">
-            
-        </form>
-
+        In this page you will find your movie (or serie) only with a few
+        parameters that <br />
+        helps algorithm for see what movie do you looking for
+      </div>
+      <div class="box-1">
+        <h2>Find your movie</h2>
+        <input type="text" placeholder="Insert Name" class="input" id="name"/>
+        <br />
+        <input type="text" placeholder="insert year" class="input" id="year" />
+        <button class="btn-submit" id="enviar">enviar</button>
+      </div>
+      <div class="box-1" id="resultado">
+        <!-- <h3>information:</h3>
+        <li class="list">title: Batman</li>
+        <li class="list">Year: 1989</li>
+        <li class="list">Rated: PG-13</li>
+        <li class="list">Genre: Batman</li>
+        <li class="list">Director: Tim Burton</li>
+        <li class="list">Writer: Bob Kane, Sam Hamm, Warren Skaaren</li>
+        <li class="list">
+          Actors: Michael Keaton, Jack Nicholson, Kim Basinger
+        </li>
+        <li class="list">Genre: Batman</li>
+        <img src="shrek.img" alt=""> -->
+      </div>
     </div>
-
-    <div class="ejemplos">
-        <div class="contenedor-pelis" id="contenedor-pelis">
-            <h2>HOLA</h2>
-        </div>
-    </div>
-
-
-
-    <script src="app.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
